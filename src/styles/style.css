@@ -1,0 +1,132 @@
+body {
+  font-family: 'Roboto Mono', Avenir, Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #131313;
+  background-image: linear-gradient(to right, #131313 0%, black 100%);
+  color: #fff;
+  min-height: 100vh;
+  padding: 6vh 10vw;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* Helpers */
+
+.underline-lg {
+  border-bottom: 3px solid #fff;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.mx-auto {
+  margin-right: auto;
+  margin-left: auto;
+}
+
+
+/* Typography */
+
+.content {
+  max-width: 760px;
+  line-height: 1.8;
+  font-size: 24px;
+  font-weight: 400;
+}
+
+.content h1,
+.content h2,
+.content h3,
+.content h4,
+.content h5,
+.content h6 {
+  line-height: 1;
+  margin: 0 0 20px 0;
+  font-weight: 600;
+}
+
+.content a {
+  color: #c6ccad;
+}
+
+.content .page-title {
+  font-weight: 700;
+  font-size: 50px;
+  margin-bottom: 40px;
+  line-height: 1.4;
+}
+
+
+/* Base styles */
+
+.copyright {
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+}
+
+.copyright .icon {
+  display: none;
+  width: 60px;
+}
+
+@media (max-width: 2000px) {
+  .content {
+    font-size: 20px;
+    max-width: 730px;
+  }
+
+  .content .page-title {
+    font-size: 40px;
+  }
+}
+
+@media (max-width: 978px) {
+  body {
+    padding: 40px;
+  }
+  .content {
+    font-size: 22px;
+  }
+
+  .content .page-title {
+    font-size: 38px;
+  }
+
+  .copyright {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: static;
+  }
+
+  .copyright .icon {
+    display: block;
+  }
+}
+
+@media (max-width: 576px) {
+  body {
+    padding: 30px 20px;
+  }
+
+  .content {
+    font-size: 18px;
+  }
+
+  .content .page-title {
+    font-size: 32px;
+  }
+
+  .copyright .icon {
+    width: 50px;
+  }
+}
+
+@media (max-width: 375px) {
+  .content .page-title {
+    font-size: 26px;
+  }
+}
