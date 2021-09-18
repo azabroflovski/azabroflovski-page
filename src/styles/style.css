@@ -90,7 +90,7 @@ body {
     font-size: 38px;
   }
 
-  .copyright {
+  body:not(.error) .copyright {
     position: static;
     margin-top: 16px;
   }
