@@ -2,5 +2,6 @@ node_modules
 .DS_Store
 .idea
 dist
+build
 dist-ssr
 *.local
