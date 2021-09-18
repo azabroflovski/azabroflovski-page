@@ -49,3 +49,9 @@ Locally preview production build
 # preview build locally
 npm run serve
 ```
+
+----
+
+### License
+
+Copyright © 2016 - present, [azabroflovski](https://t.me/azabroflovski)
