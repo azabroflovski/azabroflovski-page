@@ -67,11 +67,6 @@ body {
   bottom: 20px;
 }
 
-.copyright .icon {
-  display: none;
-  width: 60px;
-}
-
 @media (max-width: 2000px) {
   .content {
     font-size: 20px;
@@ -96,14 +91,8 @@ body {
   }
 
   .copyright {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
     position: static;
-  }
-
-  .copyright .icon {
-    display: block;
+    margin-top: 16px;
   }
 }
 
@@ -118,10 +107,6 @@ body {
 
   .content .page-title {
     font-size: 32px;
-  }
-
-  .copyright .icon {
-    width: 50px;
   }
 }
 
